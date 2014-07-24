@@ -2,7 +2,7 @@
    "background": {
       "page": "background.html"
    },
-   "content_security_policy": "script-src 'self'; object-src 'self'",
+
    "default_locale": "en",
    "description": "__MSG_extDescription__",
    "icons": {
@@ -11,10 +11,9 @@
       "32": "img/icon32.png",
       "48": "img/icon48.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOx4Vz7mWNbFhgzBezEof/vJl7FhuZrRhe2JisAnHqnG9FIzLso73lk7BZjxbnrAutMv2w7au8rW1I3IR2K9Tu3AX6K2OaY5/MERzVzuV8l2yE9LAaHciBHU00gBblWD+YA8efWR5LTFjn68GxAnNI3DveKDafRh0Yfta76zynBQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "16.0.0.0",
-   "name": "Vanilla Cookie Manager",
+   "name": "My Vanilla Cookie Manager",
    "options_page": "options.html",
    "page_action": {
       "default_icon": "img/icon32.png",
@@ -22,6 +21,5 @@
       "default_title": "Vanilla"
    },
    "permissions": [ "tabs", "http://*/*", "https://*/*", "cookies", "browsingData" ],
-   "update_url": "http://clients2.google.com/service/update2/crx",
    "version": "1.3.1"
 }

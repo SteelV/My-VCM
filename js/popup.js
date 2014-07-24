@@ -62,6 +62,19 @@ function ClearAll()
   else clearUnwantedCookies(whiteList, function (result) { $("#menu").text(ti18n("popupClearAllMsg", result.black.length, result.total)); });
   chrome.tabs.query( {currentWindow: true, active : true},
   function(tabArray){chrome.pageAction.setIcon({ tabId: tabArray[0].id, path: "img/icon32.png" });})
+  
+  //clear other data
+      chrome.browsingData.remove({
+        "since": 0
+      }, {
+		"appcache": true,
+		"cache": true,
+		"fileSystems": true,
+		"indexedDB": true,
+        "localStorage": true,
+		"webSQL": true
+      });
+	  
   return false;
 }
                
