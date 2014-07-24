@@ -1,0 +1,168 @@
+{
+   "extDescription": {
+      "message": "Ein Cookie Whitelist Manager der hilft Ihre Privatsph\u00E4re zu sch\u00FCtzen. L\u00F6scht unerw\u00FCnschte Cookies automatisch."
+   },
+   "extName": {
+      "message": "Vanilla"
+   },
+   "labelOptions": {
+      "message": "Optionen anzeigen"
+   },
+   "optionsAdd": {
+      "message": "Hinzuf\u00FCgen"
+   },
+   "optionsAutoDelDark": {
+      "message": "Unerw\u00FCnschte Cookies automatisch nach 30 Minuten l\u00F6schen"
+   },
+   "optionsAutoDelDarkMinutes": {
+      "description": "...",
+      "message": "Unerw\u00FCnschte Cookies automatisch nach $minutes$ l\u00F6schen",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "optionsAutoDelDarkNever": {
+      "message": "Unerw\u00FCnschte Cookies nicht automatisch l\u00F6schen"
+   },
+   "optionsCaption": {
+      "message": "Vanilla Optionen"
+   },
+   "optionsClearCookiesOnStartup": {
+      "message": "Unerw\u00FCnschte Cookies beim Starten entfernen, oder"
+   },
+   "optionsDiagBlack": {
+      "message": "Sites deren Cookies gel\u00F6scht werden"
+   },
+   "optionsDiagLog": {
+      "message": "Logging"
+   },
+   "optionsDiagProtected": {
+      "message": "Sites mit gesch\u00FCtzten Cookies"
+   },
+   "optionsDiagWhite": {
+      "message": "Sites mit Cookies auf der Whitelist"
+   },
+   "optionsDiagnostics": {
+      "message": "Diagnostics &amp; Tools"
+   },
+   "optionsEdit": {
+      "message": "Editieren"
+   },
+   "optionsEnable": {
+      "message": "Enable"
+   },
+   "optionsExportCmd": {
+      "message": "Export"
+   },
+   "optionsExportHelp": {
+      "message": "(ein Eintrag pro Zeile)"
+   },
+   "optionsExportLabel": {
+      "message": "Export/Import Whitelist"
+   },
+   "optionsFeedback": {
+      "message": "Feedback"
+   },
+   "optionsFeedbackBug": {
+      "message": "Haben Sie einen Bug gefunden? Bitte \u003Ca href='mailto:CoralLlama@gmail.com'\u003Emelden Sie ihn per Email\u003C/a\u003E."
+   },
+   "optionsFeedbackText": {
+      "message": "M\u00F6gen Sie Vanilla? \u003Cb\u003EErz\u00E4hlen Sie es Ihren Freunden!\u003C/b\u003E Ich w\u00FCrde es sch\u00E4tzen wenn Sie einen \u003Ca href='https://chrome.google.com/extensions/detail/gieohaicffldbmiilohhggbidhephnjj'\u003EKommentar und Rating hinterlassen\u003C/a\u003E!"
+   },
+   "optionsHideTabIcon": {
+      "message": "Versteckt das Vanilla Omnibar icon - alle Einstellungen m\u00FCssen dann auf dieser Seite durchgef\u00FChrt werden!"
+   },
+   "optionsImportCmd": {
+      "message": "Import"
+   },
+   "optionsInfo": {
+      "message": "\u003Cb\u003EEmpfohlene Verwendung:\u003C/b\u003E\u003Cul\u003E\r\n    \u003Cli\u003Egew\u00FCnschte Sites zur Whitelist hinzuf\u00FCgen\u003C/li\u003E\r\n    \u003Cli\u003E\u003Ci\u003EUnerw\u00FCnschte Cookies beim Starten entfernen\u003C/i\u003E verwenden (unten)\u003C/li\u003E\r\n    \u003C/ul\u003E\r\n    Wenn Sie die unerw\u00FCnschte Cookies nicht automatisch l\u00F6schen wollen m\u00FCssen Sie die Cookies manuell \u00FCber das Vanilla Icon in der Omnibar entfernen."
+   },
+   "optionsProtectCookies": {
+      "message": "Beta: Whitelist Cookies sch\u00FCtzen"
+   },
+   "optionsProtectCookiesWarning1": {
+      "message": "Sie k\u00F6nnen Chrome's Funktion \u003Ci\u003ECookies und andere Websitedaten beim Schlie\u00DFen des Browsers l\u00F6schen\u003C/i\u003E verwenden - Vanilla wird Ihre Cookies sch\u00FCtzen.\r\n    \u003Cbr/\u003ESie finden diese Option in \u003Ci\u003EChrome Optionen / Details / Content-Einstellungen\u003C/i\u003E."
+   },
+   "optionsProtectCookiesWarning2": {
+      "message": "\u003Cb\u003EBitte stellen Sie sicher dass \u003Ci\u003ECookies und andere Websitedaten beim Schlie\u00DFen des Browsers l\u00F6schen\u003C/i\u003E \r\n    in Chrome abgeschalten ist - sonst werden alle Cookies gel\u00F6scht!\u003C/b\u003E\r\n    \u003Cbr/\u003ESie finden diese Option in \u003Ci\u003EChrome Optionen / Details / Content-Einstellungen\u003C/i\u003E."
+   },
+   "optionsRefresh": {
+      "message": "Aktualisieren"
+   },
+   "optionsRemove": {
+      "message": "L\u00F6schen"
+   },
+   "optionsShowUpdates": {
+      "message": "\u00C4nderungen anzeigen wenn diese Erweiterung upgedated wird"
+   },
+   "optionsShowUpdatesNow": {
+      "message": "Historie anzeigen"
+   },
+   "optionsToggleSub": {
+      "message": "Subdomains-inkludieren"
+   },
+   "optionsWhitelist": {
+      "message": "Whitelist: Cookies dieser Sites werden nicht gel\u00F6scht"
+   },
+   "optionsWhitelistHelp": {
+      "message": "*. inkludiert alle Subdomains einer Site. Z.B. gilt *.google.com f\u00FCr www.google.com, docs.google.com, mail.google.com, ... und google.com"
+   },
+   "popupAddWhite": {
+      "message": "\u003Cb\u003E$dom$\u003C/b\u003E zu Whitelist hinzuf\u00FCgen",
+      "placeholders": {
+         "dom": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "popupClearAll": {
+      "message": "Unerw\u00FCnschte Cookies l\u00F6schen ($black$ von $total$)",
+      "placeholders": {
+         "black": {
+            "content": "$1",
+            "example": "1"
+         },
+         "total": {
+            "content": "$2",
+            "example": "2"
+         }
+      }
+   },
+   "popupClearAllMsg": {
+      "description": "...",
+      "message": "$removed$ von $total$ Cookies gel\u00F6scht!",
+      "placeholders": {
+         "removed": {
+            "content": "$1",
+            "example": "1"
+         },
+         "total": {
+            "content": "$2",
+            "example": "2"
+         }
+      }
+   },
+   "popupDelWhite": {
+      "message": "\u003Cb\u003E$dom$\u003C/b\u003E aus Whitelist l\u00F6schen",
+      "placeholders": {
+         "dom": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "popupErrorEmpty": {
+      "message": "Whitelist is leer - bitte f\u00FCgen Sie Sites hinzu!"
+   },
+   "updatedCaption": {
+      "message": "Vanilla Updated"
+   },
+   "updatedInfo": {
+      "message": "Vanilla Cookie Manager wurde upgedated (diese Seite kann in den Optionen abgeschalten werden)."
+   }
+}

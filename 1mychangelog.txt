@@ -1,0 +1,23 @@
+1. add cookies count
+background.js:382 - else if (strStartsWith(url, "chrome://newtab")||url=="about:blank") showTabIconNewPage(tabId);
+
+function showTabIconNewPage(tabId)
+{
+	loadAllCookies(whiteList, function (result)
+    {
+	  var count = '32';
+	  if (result.black.length > 5){var count = '5';}
+	  if (result.black.length > 10){var count = '10';}
+	  if (result.black.length > 20){var count = '20';}
+	  if (result.black.length > 30){var count = '30';}
+	  if (result.black.length > 40){var count = '40';}
+	  if (result.black.length > 50){var count = '50';}
+      console.log(result.black.length);
+	  chrome.pageAction.setIcon({ tabId: tabId, path: "img/icon"+count+".png" });
+	  chrome.pageAction.show(tabId);
+    });
+}
+
+popup.js:63 - 
+  chrome.tabs.query( {currentWindow: true, active : true},
+  function(tabArray){chrome.pageAction.setIcon({ tabId: tabArray[0].id, path: "img/icon32.png" });})
