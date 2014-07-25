@@ -21,5 +21,3 @@ function showTabIconNewPage(tabId)
 popup.js:63 - 
   chrome.tabs.query( {currentWindow: true, active : true},
   function(tabArray){chrome.pageAction.setIcon({ tabId: tabArray[0].id, path: "img/icon32.png" });})
-  
-2. test
