@@ -233,3 +233,6 @@ function showWhitelist()
   $("#txtWhitelistedDomain").focus();
 }
 
+document.addEventListener('DOMContentLoaded', function () {document.getElementsByClassName('ui-accordion-header')[1].click();});
+
+//$('html, body').animate({        scrollTop: $("#diagBlack").offset().top    }, 2000);
